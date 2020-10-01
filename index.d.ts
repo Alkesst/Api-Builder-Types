@@ -1,3 +1,3 @@
-import {Attribute} from './entities';
+import {Attribute} from './attribute';
 
 export default Attribute;
