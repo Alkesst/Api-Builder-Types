@@ -4,6 +4,7 @@ import { Coordinates } from './coordinates';
 
 export {
     Attribute,
+    AttributeType,
     Entity,
     Coordinates
 }
