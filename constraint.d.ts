@@ -7,8 +7,8 @@ export interface Constraint {
 }
 
 export enum ConstraintType {
-    CHECK,
-    PK,
-    UNIQUE,
-    INDEX
+    Check,
+    PrimaryKey,
+    Unique,
+    Index
 }
