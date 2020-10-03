@@ -1,3 +1,5 @@
-import {Attribute} from './attribute';
+import { Attribute, AttributeType } from './attribute';
 
-export default Attribute;
+export {
+    Attribute, AttributeType
+}
