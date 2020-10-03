@@ -10,5 +10,8 @@ export interface Attribute {
 }
 
 export enum AttributeType {
-    string, date, bool, numeric
+    String,
+    Date,
+    Bool,
+    Numeric
 }
