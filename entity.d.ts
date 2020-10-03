@@ -8,4 +8,5 @@ export interface Entity {
     Relationships: string[];
     Attributes: Attribute[];
     Coordinates: Coordinates;
+    Group: string;
 }
