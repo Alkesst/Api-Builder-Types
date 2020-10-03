@@ -1,3 +1,9 @@
-import {Attribute} from './attribute';
+import { Attribute } from './attribute';
+import { Entity } from './entity';
+import { Coordinates } from './coordinates';
 
-export default Attribute;
+export {
+    Attribute,
+    Entity,
+    Coordinates
+}
