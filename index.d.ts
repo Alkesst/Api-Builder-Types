@@ -4,7 +4,7 @@ import { ICoordinates } from './coordinates';
 import { IGroup } from "./group";
 import { IConstraint } from "./constraint";
 import { ProjectType, IProject } from "./project";
-import { ProjectConfig } from "./project-config";
+import { IProjectConfig } from "./project-config";
 
 export {
     IAttribute,
@@ -15,5 +15,5 @@ export {
     IConstraint,
     IProject,
     ProjectType,
-    ProjectConfig
+    IProjectConfig
 }
