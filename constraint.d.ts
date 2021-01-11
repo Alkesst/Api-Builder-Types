@@ -1,6 +1,6 @@
 import {Guid} from "guid-typescript";
 
-export interface Constraint {
+export interface IConstraint {
     Identifier: Guid;
     Type: ConstraintType;
     Attributes: number[];
