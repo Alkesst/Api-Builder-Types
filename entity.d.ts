@@ -1,14 +1,14 @@
 import { Guid } from 'guid-typescript';
-import { Attribute } from './attribute';
-import { Coordinates } from './coordinates';
-import { Relationship } from "./relationship";
-import { Constraint } from "./constraint";
+import { IAttribute } from './attribute';
+import { ICoordinates } from './coordinates';
+import { IRelationship } from "./relationship";
+import { IConstraint } from "./constraint";
 
-export interface Entity {
+export interface IEntity {
     Identifier: Guid;
     Name: string;
-    Relationships: Relationship[];
-    Attributes: Attribute[];
-    Coordinates: Coordinates;
-    Constraints: Constraint[];
+    Relationships: IRelationship[];
+    Attributes: IAttribute[];
+    Coordinates: ICoordinates;
+    Constraints: IConstraint[];
 }

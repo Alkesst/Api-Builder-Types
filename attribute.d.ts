@@ -1,6 +1,6 @@
 import { Guid } from 'guid-typescript';
 
-export interface Attribute {
+export interface IAttribute {
     Identifier: Guid;
     Type: AttributeType;
     Value: string | null;

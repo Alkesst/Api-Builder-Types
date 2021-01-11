@@ -1,4 +1,4 @@
-export interface Coordinates {
+export interface ICoordinates {
     X: number,
     Y: number
 }

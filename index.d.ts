@@ -1,19 +1,19 @@
-import { Attribute, AttributeType } from './attribute';
-import { Entity } from './entity';
-import { Coordinates } from './coordinates';
+import { IAttribute, AttributeType } from './attribute';
+import { IEntity } from './entity';
+import { ICoordinates } from './coordinates';
 import { Group } from "./group";
-import { Constraint } from "./constraint";
-import { ProjectType, Project } from "./project";
+import { IConstraint } from "./constraint";
+import { ProjectType, IProject } from "./project";
 import { ProjectConfig } from "./project-config";
 
 export {
-    Attribute,
+    IAttribute,
     AttributeType,
-    Entity,
-    Coordinates,
+    IEntity,
+    ICoordinates,
     Group,
-    Constraint,
-    Project,
+    IConstraint,
+    IProject,
     ProjectType,
     ProjectConfig
 }

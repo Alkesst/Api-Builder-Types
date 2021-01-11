@@ -1,21 +1,21 @@
 import { Guid } from "guid-typescript";
 
-export interface Relationship {
+export interface IRelationship {
     Identifier: Guid;
     LeftSide: Left;
     RightSide: Right;
 }
 
-export interface Side {
+export interface ISide {
     Entity: Guid;
     Multiplicity: Multiplicity;
 }
 
-export interface Right extends Side {
+export interface Right extends ISide {
     AttributePrimaryKey: Guid;
 }
 
-export interface Left extends Side {
+export interface Left extends ISide {
     AttributeForeignKey: Guid;
 }
 
