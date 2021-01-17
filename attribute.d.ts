@@ -2,6 +2,7 @@ import { Guid } from 'guid-typescript';
 
 export interface IAttribute {
     Identifier: Guid;
+    Name: string;
     Type: AttributeType;
     Value: string | null;
     IsNullable: boolean;

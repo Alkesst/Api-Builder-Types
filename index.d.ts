@@ -1,4 +1,4 @@
-import { IAttribute, AttributeType } from './attribute';
+import { AttributeType, IAttribute } from './attribute';
 import { IEntity } from './entity';
 import { ICoordinates } from './coordinates';
 import { IGroup } from "./group";
