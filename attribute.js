@@ -1,4 +1,4 @@
-export const AttributeType  = Object.freeze({
+const AttributeType  = Object.freeze({
     String: 1,
     Date: 2,
     Bool: 3,
@@ -8,3 +8,5 @@ export const AttributeType  = Object.freeze({
     3: 'Bool',
     4: 'Numeric'
 });
+
+module.exports = { AttributeType };

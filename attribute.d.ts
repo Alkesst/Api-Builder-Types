@@ -4,10 +4,9 @@ export interface IAttribute {
     Identifier: Guid;
     Name: string;
     Type: AttributeType;
-    Value: string | null;
     IsNullable: boolean;
-    DefaultValue: string | null;
-    Precision: number | null;
+    DefaultValue?: string | null;
+    Precision?: number | null;
 }
 
 export enum AttributeType {

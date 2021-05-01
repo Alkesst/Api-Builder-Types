@@ -2,7 +2,6 @@ import { Guid } from "guid-typescript";
 
 export interface IRelationship {
     Identifier: Guid;
-    LeftSide: Left;
     RightSide: Right;
 }
 
@@ -12,13 +11,9 @@ export interface ISide {
 }
 
 export interface Right extends ISide {
-    AttributePrimaryKey: Guid;
+    PrimaryKeyReferenced: Guid;
 }
-
-export interface Left extends ISide {
-    AttributeForeignKey: Guid;
-}
-
+// TBD exported in a Javascript File to be used in the mock.
 export enum Multiplicity {
     One,
     Multi,

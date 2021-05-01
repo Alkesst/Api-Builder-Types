@@ -1,1 +1,1 @@
-export { AttributeType } from "./attribute";
+module.exports = { AttributeType : require('./attribute').AttributeType };
