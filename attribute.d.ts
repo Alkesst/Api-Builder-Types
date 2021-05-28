@@ -1,7 +1,5 @@
-import { Guid } from 'guid-typescript';
-
 export interface IAttribute {
-    Identifier: Guid;
+    Identifier: string;
     Name: string;
     Type: AttributeType;
     IsNullable: boolean;
