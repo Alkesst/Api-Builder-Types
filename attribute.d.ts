@@ -1,12 +1,10 @@
-import { Guid } from 'guid-typescript';
-
 export interface IAttribute {
-    Identifier: Guid;
+    Identifier: string;
+    Name: string;
     Type: AttributeType;
-    Value: string | null;
     IsNullable: boolean;
-    DefaultValue: string | null;
-    Precision: number | null;
+    DefaultValue?: string | null;
+    Precision?: number | null;
 }
 
 export enum AttributeType {

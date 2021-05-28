@@ -1,9 +1,8 @@
-import { Guid } from "guid-typescript";
 import { IEntity } from "./entity";
 import { ICoordinates } from './coordinates';
 
 export interface IGroup {
-    Identifier: Guid;
+    Identifier: string;
     Name: string;
     Entities: IEntity[];
     Coordinates: ICoordinates;
