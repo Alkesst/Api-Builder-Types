@@ -2,7 +2,7 @@ export interface IAttribute {
     Identifier: string;
     Name: string;
     Type: AttributeType;
-    IsNullable: boolean;
+    IsMandatory: boolean;
     DefaultValue?: string | null;
     Precision?: number | null;
 }
