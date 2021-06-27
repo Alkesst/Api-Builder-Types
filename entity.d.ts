@@ -10,4 +10,5 @@ export interface IEntity {
     Attributes: IAttribute[];
     Coordinates: ICoordinates;
     Constraints: IConstraint[];
+    PK: string[];
 }
