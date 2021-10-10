@@ -5,4 +5,5 @@ export interface IProjectConfig {
     Identifier: string;
     Type: ProjectType;
     Entities: IEntity[];
+    Description?: string;
 }
