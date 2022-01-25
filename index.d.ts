@@ -5,6 +5,7 @@ import { IGroup } from "./group";
 import { IConstraint } from "./constraint";
 import { ProjectType, IProject } from "./project";
 import { IProjectConfig } from "./project-config";
+import {IRelationship, Right} from "./relationship";
 
 export {
     IAttribute,
@@ -15,5 +16,7 @@ export {
     IConstraint,
     IProject,
     ProjectType,
-    IProjectConfig
+    IProjectConfig,
+    IRelationship,
+    Right
 }
