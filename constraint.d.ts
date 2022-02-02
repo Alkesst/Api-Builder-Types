@@ -5,8 +5,6 @@ export interface IConstraint {
 }
 
 export enum ConstraintType {
-    Check,
-    PrimaryKey,
     Unique,
     Index
 }
