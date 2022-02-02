@@ -1,7 +1,7 @@
 export interface IConstraint {
     Identifier: string;
     Type: ConstraintType;
-    Attributes: number[];
+    Attributes: string[];
 }
 
 export enum ConstraintType {
